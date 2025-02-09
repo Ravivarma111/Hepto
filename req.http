@@ -1,0 +1,21 @@
+
+
+
+POST 'http://localhost:4000/userApi/create-user
+
+{
+    "username":"ravivarmachunchu456@gmail.com",
+    "email":"ravivarmachunchu456@gmail.com",
+    "dob":"","createPassword":"ws3pYFkr4NG!zN@",
+    "confirmPassword":"ws3pYFkr4NG!zN@",
+    "branch":"",
+    "gender":"male",
+    "profileFig":{"0":{}}
+}
+
+
+PUT  http://localshot:4000
+
+
+
+DELETE  http://localshot:4000
