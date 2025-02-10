@@ -6,17 +6,15 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm py-3">
       <div className="container">
-        {/* Navbar Brand */}
         <Link className="navbar-brand fw-bold fs-4 text-light" to="/">
           <img
-            src="https://via.placeholder.com/40" // Replace with your logo URL
+            src="/images/emslogo.jpg" 
             alt="Logo"
             className="me-2 rounded-circle"
+            width="40" 
           />
-          MyWebsite
+          Employee Management System
         </Link>
-
-        {/* Mobile Toggle Button */}
         <button
           className="navbar-toggler"
           type="button"
@@ -29,23 +27,33 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        {/* Navbar Links */}
+   
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link text-light fs-5 px-3" to="/">Home</Link>
+              <Link className="nav-link text-light fs-5 px-3" to="/">
+                Home
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light fs-5 px-3" to="/contactUs">Contact Us</Link>
+              <Link className="nav-link text-light fs-5 px-3" to="/contactUs">
+                Contact Us
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light fs-5 px-3" to="/aboutUs">About Us</Link>
+              <Link className="nav-link text-light fs-5 px-3" to="/aboutUs">
+                About Us
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light fs-5 px-3" to="/signUp">Sign Up</Link>
+              <Link className="nav-link text-light fs-5 px-3" to="/signUp">
+                Sign Up
+              </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link btn btn-primary text-light px-4 mx-2" to="/login">Login</Link>
+              <Link className="nav-link btn btn-primary text-light px-4 mx-2" to="/login">
+                Login
+              </Link>
             </li>
           </ul>
         </div>
